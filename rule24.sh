@@ -5,9 +5,9 @@ check_compliance () {
 
 if [ "$(sysctl $1)" == "$1 = $2" ]
 then
-  echo [OK] $1
+    echo [OK] $1
 else
-   echo [KO] $1
+    echo [KO] $1
 fi
 
 }

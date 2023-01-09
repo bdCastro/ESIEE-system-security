@@ -5,9 +5,9 @@ check_compliance () {
 
 if [ "$(sysctl $1)" == "$1 = $2" ]
 then
-  echo [OK] $1
+    echo [OK] $1
 else
-   echo [KO] $1
+    echo [KO] $1
 fi
 
 }
@@ -47,6 +47,7 @@ check_compliance net.ipv4.ip_local_port_range "32768 65535"
 
 # Use SYN cookies
 check_compliance net.ipv4.tcp_syncookies 1
+
 # Disable support for "router solicitations"
 check_compliance net.ipv6.conf.all.router_solicitations 0
 check_compliance net.ipv6.conf.default.router_solicitations 0
@@ -70,6 +71,7 @@ check_compliance net.ipv6.conf.default.autoconf 0
 # Do not accept ICMPs of redirect type
 check_compliance net.ipv6.conf.all.accept_redirects 0 
 check_compliance net.ipv6.conf.default.accept_redirects 0
+
 # Deny routing source packets
 check_compliance net.ipv6.conf.all.accept_source_route 0 
 check_compliance net.ipv6.conf.default.accept_source_route 0
