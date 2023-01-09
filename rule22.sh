@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# check for com
+# check for compliance with rule 22
 check_compliance () {
 
 if [ "$(sysctl $1)" == "$1 = $2" ]
