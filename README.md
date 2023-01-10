@@ -2,9 +2,9 @@
 
 To run the codes on a UBUNTU bash, it's necessary to build each file before running it. In order to do that, run the following commands:
 
-1) chmod +x <FileName>
+1) chmod +x FileName
 
-2) ./<FileName>
+2) ./FileName
 
 Description of the programs
 
