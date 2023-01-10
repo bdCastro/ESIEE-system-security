@@ -30,7 +30,9 @@ sudo chroot jailed /bin/bash
 exit
 }
 
-if = [ create_jail ]
+create_jail
+
+if = [ $find newJail ]
 then
   echo OK
 else
