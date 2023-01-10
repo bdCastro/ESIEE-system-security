@@ -1,6 +1,6 @@
 # system-security-project
 
-To run the codes on a UBUNTU bash it's necessary to build each file before running it, in order to do that we need to run the following commands:
+To run the codes on a UBUNTU bash, it's necessary to build each file before running it. In order to do that, run the following commands:
 
 1) chmod +x <FileName>
 
@@ -8,7 +8,7 @@ To run the codes on a UBUNTU bash it's necessary to build each file before runni
 
 Description of the programs
 
-rule10: Ckecking the computers architecture, wheter it is 64 or 32 bits.
+rule10: Ckecking the computers architecture, whether it is 64 or 32 bits.
 
 rule11: Checking if IOMMU is active or not
 
@@ -24,10 +24,10 @@ rule24: Disabling the loading of kernel modules
 
 rule32: Checking if stored password are correctly protected
 
-rule36: Checking the acess rigth for some sensitive content files
+rule36: Checking the access rigth for some sensitive content files
 
 rule38: Checking the executability of setuid commands on 'root'
 
-rule47: Checking that log files are stored on a different partition
+rule47: Checking if log files are stored on a different partition
 
-rule55: Checking the creation of a chroot jail and its acess rights for a partitioned service
+rule55: Checking the creation of a chroot jail and it's access rights for a partitioned service
