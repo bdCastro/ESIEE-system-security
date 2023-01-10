@@ -1,4 +1,4 @@
-if = [ $ls -l /boot -eq "-rw-------" ]
+if = [ $(ls -l /boot) -eq "drwxr-xr-x" ]
 then
   echo OK
 else
