@@ -1,6 +1,6 @@
 check_rule(){
 
-  if =[ $find $1 ]
+  if = [ $find $1 ]
   then
     echo OK
   else
