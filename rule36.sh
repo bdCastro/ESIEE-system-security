@@ -1,6 +1,6 @@
 check_rule(){
 
-if[ $ls -l $1 -eq "-rw-r-----" ]
+if = [ $ls -l $1 -eq "-rw-r-----" ]
 then
   echo OK
 else
